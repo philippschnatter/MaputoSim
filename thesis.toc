@@ -74,8 +74,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\chapternumberline {8}Zusammenfassung und Ausblick}{14}{chapter.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{15}{section*.13}
+\contentsline {chapter}{Bibliography}{15}{section*.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\relax References\relax }{15}{section*.14}
+\contentsline {section}{\relax References\relax }{15}{section*.12}
 \defcounter {refsection}{0}\relax 
 \contentsline {appendix}{\chapternumberline {A}\relax Appendix\relax }{16}{appendix.A}

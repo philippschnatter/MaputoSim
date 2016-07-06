@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex version 2.5 $
+% $ biblatex bbl format version 2.7 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -16,101 +16,118 @@
   {}
 \endgroup
 
-\entry{fankhauser:2009:softwaretechnik-security}{inbook}{}
-  \name{author}{3}{}{%
-    {{}%
-     {Fankhauser}{F.}%
-     {Florian}{F.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Schanes}{S.}%
-     {Christian}{C.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Brem}{B.}%
-     {Christian}{C.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{publisher}{1}{%
-    {Pearson Studium}%
-  }
-  \strng{namehash}{FFSCBC1}
-  \strng{fullhash}{FFSCBC1}
-  \field{sortinit}{F}
-  \field{chapter}{13}
-  \field{edition}{1}
-  \field{pages}{589\bibrangedash 646}
-  \field{title}{Softwaretechnik - Mit Fallbeispielen aus realen
+\sortlist[entry]{nty/global/}
+  \entry{fankhauser:2009:softwaretechnik-security}{inbook}{}
+    \name{author}{3}{}{%
+      {{hash=FF}{%
+         family={Fankhauser},
+         family_i={F\bibinitperiod},
+         given={Florian},
+         given_i={F\bibinitperiod},
+      }}%
+      {{hash=SC}{%
+         family={Schanes},
+         family_i={S\bibinitperiod},
+         given={Christian},
+         given_i={C\bibinitperiod},
+      }}%
+      {{hash=BC}{%
+         family={Brem},
+         family_i={B\bibinitperiod},
+         given={Christian},
+         given_i={C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Pearson Studium}%
+    }
+    \strng{namehash}{FFSCBC1}
+    \strng{fullhash}{FFSCBC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{chapter}{13}
+    \field{edition}{1}
+    \field{pages}{589\bibrangedash 646}
+    \field{title}{Softwaretechnik - Mit Fallbeispielen aus realen
   Entwicklungsprojekten}
-  \verb{url}
-  \verb http://www.inso.tuwien.ac.at/publications/softwaretechnik/
-  \endverb
-  \list{location}{1}{%
-    {M{\"u}nchen}%
-  }
-  \field{year}{2009}
-\endentry
+    \verb{url}
+    \verb http://www.inso.tuwien.ac.at/publications/softwaretechnik/
+    \endverb
+    \list{location}{1}{%
+      {M{\"u}nchen}%
+    }
+    \field{year}{2009}
+  \endentry
 
-\entry{oasis:2010:homepage}{misc}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Oasis}{O.}%
-     {}{}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{O1}
-  \strng{fullhash}{O1}
-  \field{sortinit}{O}
-  \field{title}{Organization for the advancement of structured information
+  \entry{oasis:2010:homepage}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=O}{%
+         family={Oasis},
+         family_i={O\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{O1}
+    \strng{fullhash}{O1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \field{title}{Organization for the advancement of structured information
   standards}
-  \verb{url}
-  \verb http://www.oasis-open.org
-  \endverb
-  \field{year}{2010}
-\endentry
+    \verb{url}
+    \verb http://www.oasis-open.org
+    \endverb
+    \field{year}{2010}
+  \endentry
 
-\entry{schanes:2011:voip-fuzzer}{article}{}
-  \name{author}{5}{}{%
-    {{}%
-     {Schanes}{S.}%
-     {Christian}{C.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Taber}{T.}%
-     {Stefan}{S.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Popp}{P.}%
-     {Karin}{K.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Fankhauser}{F.}%
-     {Florian}{F.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Grechenig}{G.}%
-     {Thomas}{T.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{publisher}{1}{%
-    {IEEE Computer Society Press}%
-  }
-  \keyw{ESSE, Software testing; Computer network security; Graphical user
+  \entry{schanes:2011:voip-fuzzer}{article}{}
+    \name{author}{5}{}{%
+      {{hash=SC}{%
+         family={Schanes},
+         family_i={S\bibinitperiod},
+         given={Christian},
+         given_i={C\bibinitperiod},
+      }}%
+      {{hash=TS}{%
+         family={Taber},
+         family_i={T\bibinitperiod},
+         given={Stefan},
+         given_i={S\bibinitperiod},
+      }}%
+      {{hash=PK}{%
+         family={Popp},
+         family_i={P\bibinitperiod},
+         given={Karin},
+         given_i={K\bibinitperiod},
+      }}%
+      {{hash=FF}{%
+         family={Fankhauser},
+         family_i={F\bibinitperiod},
+         given={Florian},
+         given_i={F\bibinitperiod},
+      }}%
+      {{hash=GT}{%
+         family={Grechenig},
+         family_i={G\bibinitperiod},
+         given={Thomas},
+         given_i={T\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IEEE Computer Society Press}%
+    }
+    \keyw{ESSE, Software testing; Computer network security; Graphical user
   interfaces; Internet telephony; Fuzzing}
-  \strng{namehash}{SC+1}
-  \strng{fullhash}{SCTSPKFFGT1}
-  \field{sortinit}{S}
-  \field{abstract}{%
-  Voice over Internet Protocol based systems replace phone lines in many
+    \strng{namehash}{SC+1}
+    \strng{fullhash}{SCTSPKFFGT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{abstract}{%
+    Voice over Internet Protocol based systems replace phone lines in many
   scenarios and are in wide use today. Automated security tests of such systems
   are required to detect implementation and configuration mistakes early and in
   an efficient way. In this paper we present a plugin for our fuzzer framework
@@ -122,23 +139,20 @@
   multiple metrics. Results of testing two open source softphones by using our
   fuzzer showed that various unknown vulnerabilities could be identified with
   the implemented plugin for our fuzzing framework.%
-  }
-  \field{booktitle}{International Journal On Advances in Security, volume 4,
+    }
+    \field{booktitle}{International Journal On Advances in Security, volume 4,
   numbers 1 and 2, 2011}
-  \field{number}{1 and 2}
-  \field{pages}{95\bibrangedash 105}
-  \field{title}{Security Test Approach for Automated Detection of
+    \field{number}{1 and 2}
+    \field{pages}{95\bibrangedash 105}
+    \field{title}{Security Test Approach for Automated Detection of
   Vulnerabilities of SIP-based VoIP Softphones}
-  \verb{url}
-  \verb \url{http://www.iariajournals.org/security/tocv4n12.html}
-  \endverb
-  \field{volume}{4}
-  \field{journaltitle}{International Journal On Advances in Security}
-  \field{month}{09}
-  \field{year}{2011}
-\endentry
-
-\lossort
-\endlossort
-
+    \verb{url}
+    \verb \url{http://www.iariajournals.org/security/tocv4n12.html}
+    \endverb
+    \field{volume}{4}
+    \field{journaltitle}{International Journal On Advances in Security}
+    \field{month}{09}
+    \field{year}{2011}
+  \endentry
+\endsortlist
 \endinput
