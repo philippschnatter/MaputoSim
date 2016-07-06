@@ -1,0 +1,144 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.5 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{fankhauser:2009:softwaretechnik-security}{inbook}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Fankhauser}{F.}%
+     {Florian}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Schanes}{S.}%
+     {Christian}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Brem}{B.}%
+     {Christian}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Pearson Studium}%
+  }
+  \strng{namehash}{FFSCBC1}
+  \strng{fullhash}{FFSCBC1}
+  \field{sortinit}{F}
+  \field{chapter}{13}
+  \field{edition}{1}
+  \field{pages}{589\bibrangedash 646}
+  \field{title}{Softwaretechnik - Mit Fallbeispielen aus realen
+  Entwicklungsprojekten}
+  \verb{url}
+  \verb http://www.inso.tuwien.ac.at/publications/softwaretechnik/
+  \endverb
+  \list{location}{1}{%
+    {M{\"u}nchen}%
+  }
+  \field{year}{2009}
+\endentry
+
+\entry{oasis:2010:homepage}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Oasis}{O.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{O1}
+  \strng{fullhash}{O1}
+  \field{sortinit}{O}
+  \field{title}{Organization for the advancement of structured information
+  standards}
+  \verb{url}
+  \verb http://www.oasis-open.org
+  \endverb
+  \field{year}{2010}
+\endentry
+
+\entry{schanes:2011:voip-fuzzer}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Schanes}{S.}%
+     {Christian}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Taber}{T.}%
+     {Stefan}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Popp}{P.}%
+     {Karin}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fankhauser}{F.}%
+     {Florian}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Grechenig}{G.}%
+     {Thomas}{T.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IEEE Computer Society Press}%
+  }
+  \keyw{ESSE, Software testing; Computer network security; Graphical user
+  interfaces; Internet telephony; Fuzzing}
+  \strng{namehash}{SC+1}
+  \strng{fullhash}{SCTSPKFFGT1}
+  \field{sortinit}{S}
+  \field{abstract}{%
+  Voice over Internet Protocol based systems replace phone lines in many
+  scenarios and are in wide use today. Automated security tests of such systems
+  are required to detect implementation and configuration mistakes early and in
+  an efficient way. In this paper we present a plugin for our fuzzer framework
+  fuzzolution to automatically detect security vulnerabilities in Session
+  Initiation Protocol based Voice over Internet Protocol softphones, which are
+  examples for endpoints in such telephone systems. The presented approach
+  automates the interaction with the Graphical User Interface of the softphones
+  during test execution and also observes the behavior of the softphones using
+  multiple metrics. Results of testing two open source softphones by using our
+  fuzzer showed that various unknown vulnerabilities could be identified with
+  the implemented plugin for our fuzzing framework.%
+  }
+  \field{booktitle}{International Journal On Advances in Security, volume 4,
+  numbers 1 and 2, 2011}
+  \field{number}{1 and 2}
+  \field{pages}{95\bibrangedash 105}
+  \field{title}{Security Test Approach for Automated Detection of
+  Vulnerabilities of SIP-based VoIP Softphones}
+  \verb{url}
+  \verb \url{http://www.iariajournals.org/security/tocv4n12.html}
+  \endverb
+  \field{volume}{4}
+  \field{journaltitle}{International Journal On Advances in Security}
+  \field{month}{09}
+  \field{year}{2011}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput
